@@ -10,7 +10,7 @@ public class SlidingDoor : TooltipObject
     private float timer = 0f;
     [SerializeField] private float timeAmount = 1.5f;
     private bool isBusy = false;
-    [SerializeField] private bool isLocked = false;
+    [SerializeField] public bool isLocked = false;
 
     public Pathfinding pathfinding;
 
