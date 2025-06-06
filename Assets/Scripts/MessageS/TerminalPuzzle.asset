@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 334d9b57996b48f478206226c53fd00b, type: 3}
   m_Name: TerminalPuzzle
   m_EditorClassIdentifier: 
-  message: 'Code: 122910'
+  message: 'Code: 122910
+
+
+    12 = 22'

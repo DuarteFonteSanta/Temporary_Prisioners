@@ -196,4 +196,9 @@ public class Grid : MonoBehaviour
         public LayerMask terrainMask;
         public int terrainPenalty;
     }
+    
+    public void RefreshGrid()
+    {
+        CreateGrid();  // Rebuilds grid and recalculates penalties
+    }
 }

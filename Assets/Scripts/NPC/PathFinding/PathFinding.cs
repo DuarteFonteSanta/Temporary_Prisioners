@@ -12,6 +12,11 @@ public class Pathfinding : MonoBehaviour
         grid = GetComponent<Grid>();
     }
 
+    public void Refresh()
+    {
+        grid.RefreshGrid();
+    }
+
     public void FindPath(PathRequest request, Action<PathResult> callback)
     {
         Stopwatch sw = new Stopwatch();
